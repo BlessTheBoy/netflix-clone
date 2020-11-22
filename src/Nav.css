@@ -3,8 +3,8 @@
   top: 0;
   display: flex;
   justify-content: space-between;
+  padding: 20px 0px;
   width: 100%;
-  padding: 20px;
   z-index: 1;
   height: 30px;
   transition: all ease-in-out 0.5s;
@@ -15,15 +15,13 @@
 }
 
 .nav__logo {
-  position: fixed;
-  left: 20px;
   width: 80px;
   object-fit: contain;
+  margin-left: 20px;
 }
 
 .nav__avatar {
-  position: fixed;
-  right: 20px;
   width: 30px;
   object-fit: contain;
+  margin-right: 20px;
 }
